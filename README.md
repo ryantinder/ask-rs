@@ -1,10 +1,10 @@
-#Quick Start#
+# Quick Start
 ```console
 git clone https://github.com/ryantinder/ask-rs
 cd ask
 cargo install --path .
 ```
-#Example#
+# Example
 ```console
 ask tell me about the Lockheed Martin SR71
 >> The Lockheed Martin SR-71 "Blackbird" is a long-range, high-altitude, 
@@ -19,7 +19,7 @@ ask tell me about the Lockheed Martin SR71 --profile pirate
 ```
 
 
-#Api Key Management#
+# Api Key Management
 Ask-rs uses the `confy` crate to manage user secrets. Everything is stored locally.
 | cmd                       | desc                                  |
 |---------------------------|---------------------------------------|
@@ -28,7 +28,7 @@ Ask-rs uses the `confy` crate to manage user secrets. Everything is stored local
 | ask key switch <key_name> | Select model/key to use for responses |
 | ask key all               | List all configured models            |
 
-#Prompt Management#
+# Prompt Management
 | cmd                      | desc                                       |
 |--------------------------|--------------------------------------------|
 | ask prompt new           | Add new prompt                             |
